@@ -191,6 +191,32 @@ transform: scale(1.4);
 .contact-icons{
   display: flex;
 }
+.submitbtn{
+  height: 40px;
+  width: 150px;
+  background-color: #76885B;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 20px;
+
+}
+.footer{
+  width: 100vw;
+
+  height: 10vh;
+  background-color: #76885B;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-icon {
+width: 50%;
+display: flex;
+justify-content: space-between;
+}
 @media (max-width:575px){
   .head-img {
    display: none;
